@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class Home {
     @GetMapping("/home")
-    public String greeting(@RequestParam String name, Model modle){
+    public String greeting(@RequestParam(value = "name",defaultValue = "") String name, Model modle){
         modle.addAttribute("name", name);
-        return "index";
+        return "file";
     }
 }

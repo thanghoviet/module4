@@ -1,0 +1,4 @@
+dependencies {
+    compile group: 'javax.servlet', name: 'servlet-api', version: '2.5'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.24.RELEASE'
+}
