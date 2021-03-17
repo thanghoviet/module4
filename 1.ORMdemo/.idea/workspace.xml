@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="1.ORMdemo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdbcc83c-1d51-4b96-a5d8-c828db50620f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/Spring-email-validation/.idea/modules/Spring-email-validation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/Spring-email-validation/.idea/modules/Spring-email-validation.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/ValidateEmailGradle/.idea/modules/ValidateEmailGradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/chuyendoitiente/chuyendoitiente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/cms/src/main/java/cg/wbd/grandemonstration/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/cms/src/main/java/cg/wbd/grandemonstration/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/cms/src/main/java/cg/wbd/grandemonstration/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/cms/src/main/java/cg/wbd/grandemonstration/service/CustomerServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/cms/src/main/java/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/cms/src/main/webapp/customers/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/cms/src/main/webapp/customers/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2.Spring Controller/spring-timezone/spring-timezone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/EmailMailboxes/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/EmailMailboxes/src/main/java/com/codegym/config/ApplicationInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/EmailMailboxes/src/main/java/com/codegym/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/EmailMailboxes/src/main/java/com/codegym/model/Mailboxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/EmailMailboxes/src/main/webapp/views/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/EmailMailboxes/src/main/webapp/views/showForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/UploadFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/java/com/codegym/config/ApplicationInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/java/com/codegym/controller/MyFileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/java/com/codegym/form/MyUploadForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/webapp/WEB-INF/views/_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/webapp/WEB-INF/views/uploadMultiFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/webapp/WEB-INF/views/uploadOneFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/UploadFile/src/main/webapp/WEB-INF/views/uploadResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-mvc-form-tutorial/src/main/java/com/codegym/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-mvc-form-tutorial/src/main/java/com/codegym/config/ApplicationInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-mvc-form-tutorial/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-mvc-form-tutorial/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/spring-user-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/java/com/codegym/Dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/java/com/codegym/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/java/com/codegym/login/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4.Data Binding &amp; Form/spring-user-model/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master2/src/main/java/com/codegym/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master2/src/main/java/com/codegym/controller/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master2/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master2/src/main/webapp/WEB-INF/infor1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master2/src/main/webapp/WEB-INF/infor2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-master2/src/main/webapp/WEB-INF/infor3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/spring-timezone/.idea/spring-timezone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/chuyendoitiente.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/src/main/java/com/codegym/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/src/main/java/com/codegym/model/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/src/main/webapp/WEB-INF/views/USD.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/src/main/webapp/WEB-INF/views/money.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/classes/com/codegym/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/classes/com/codegym/model/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-aop-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-beans-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-context-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-core-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-expression-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-jcl-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-web-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/lib/spring-webmvc-5.2.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/views/USD.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/views/money.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/chuyendoitiente/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/classes/com/codegym/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chuyendoitiente/target/classes/com/codegym/model/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-master2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-master2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-master2/src/main/java/com/codegym/config/ApplicationInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-master2/src/main/java/com/codegym/config/ApplicationInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-master2/src/main/java/com/codegym/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1potI0sn7TtTXRHY8WNOgtHg4eo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="1.ORMdemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2ef50dd4-8a50-4bd1-9ff9-08477ce054fa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56844" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="1.ORMdemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdbcc83c-1d51-4b96-a5d8-c828db50620f" name="Default Changelist" comment="" />
+      <created>1615861201240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615861201240</updated>
+      <workItem from="1615861202504" duration="5837000" />
+      <workItem from="1615870817256" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
