@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="../homePage/css/bootstrap.css">
+    <link rel="stylesheet" href="../homePage/css/animate.css">
+    <link rel="stylesheet" href="../homePage/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="../homePage/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../homePage/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../homePage/fonts/flaticon/font/flaticon.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="../homePage/css/style.css">
+</head>
+<body>
+<div align="center">
+    <img id="img-of-the-day"/>
+    <script>
+        let query =
+            "https://api.nasa.gov/planetary/apod?api_key=2mGCgSPCI0antBjcwhj1YoFUlfPhL11M0cdjafOS";
+        let request = new XMLHttpRequest();
+        request.open("GET", query);
+        request.onload = function () {
+            if (request.status === 200) {
+                let response = JSON.parse(request.responseText);
+                document
+                    .getElementById("img-of-the-day")
+                    .setAttribute("src", response.url);
+            }
+        };
+        request.send();
+    </script>
+
+</div>
+
+
+<div class="post-content-body"></div>
+
+<div class="pt-5">
+    <h3 class="mb-5"></h3>
+    <ul class="comment-list" th:each="myImage : ${list}">
+        <li class="comment">
+            <div class="comment-body">
+                <h3 th:text="${myImage.author}"></h3>
+                <div class="meta" th:text="${myImage.rating}"><i class="fas fa-star"></i></div>
+                <div class="meta" th:text="${myImage.numOfLike}">like</div>
+                <h2 th:text="${myImage.feedBack}"></h2>
+            </div>
+        </li>
+    </ul>
+
+    <div>
+        <form th:action="@{/MyImage}" th:object="${myImage}" method="post">
+            <table>
+                <tr>
+                    <td>Author :</td>
+                    <td><input type="text" th:field="*{myImage.author}"/></td>
+                </tr>
+                <tr>
+                    <td>Feed Back :</td>
+                    <td><input type="text" th:field="*{myImage.feedBack}"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Create customer"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <h3>Paragraph</h3>
+                <img src="../homePage/images/img_1.jpg" alt="Image placeholder" class="img-fluid">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusantium optio unde perferendis
+                    eum illum voluptatibus dolore tempora, consequatur minus asperiores temporibus reprehenderit.</p>
+            </div>
+            <div class="col-md-6 ml-auto">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h3>Latest Post</h3>
+                        <div class="post-entry-sidebar">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src="../homePage/images/img_6.jpg" alt="Image placeholder" class="mr-4">
+                                        <div class="text">
+                                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                            <div class="post-meta">
+                                                <span class="mr-2">March 15, 2018 </span> &bullet;
+                                                <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="../homePage/images/img_3.jpg" alt="Image placeholder" class="mr-4">
+                                        <div class="text">
+                                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                            <div class="post-meta">
+                                                <span class="mr-2">March 15, 2018 </span> &bullet;
+                                                <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="../homePage/images/img_4.jpg" alt="Image placeholder" class="mr-4">
+                                        <div class="text">
+                                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                            <div class="post-meta">
+                                                <span class="mr-2">March 15, 2018 </span> &bullet;
+                                                <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-4">
+
+                        <div class="mb-5">
+                            <h3>Quick Links</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Travel</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Categories</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-5">
+                            <h3>Social</h3>
+                            <ul class="list-unstyled footer-social">
+                                <li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
+                                <li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
+                                <li><a href="#"><span class="fa fa-instagram"></span> Instagram</a></li>
+                                <li><a href="#"><span class="fa fa-vimeo"></span> Vimeo</a></li>
+                                <li><a href="#"><span class="fa fa-youtube-play"></span> Youtube</a></li>
+                                <li><a href="#"><span class="fa fa-snapchat"></span> Snapshot</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END footer -->
+
+<!-- loader -->
+<div id="loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#f4b214"/>
+    </svg>
+</div>
+
+<script src="../homePage/js/jquery-3.2.1.min.js"></script>
+<script src="../homePage/js/jquery-migrate-3.0.0.js"></script>
+<script src="../homePage/js/popper.min.js"></script>
+<script src="../homePage/js/bootstrap.min.js"></script>
+<script src="../homePage/js/owl.carousel.min.js"></script>
+<script src="../homePage/js/jquery.waypoints.min.js"></script>
+<script src="../homePage/js/jquery.stellar.min.js"></script>
+
+
+<script src="../homePage/js/main.js"></script>
+
+</body>
+</html>
